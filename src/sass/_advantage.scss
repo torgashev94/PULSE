@@ -1,0 +1,37 @@
+.advantage {
+  padding: 73px 0 65px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+  }
+  &__item {
+    width: 273px;
+  }
+  &__logo {
+    display: block;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+  &__text {
+    color: rgb(13, 13, 13);
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__descr {
+    color: rgb(13, 13, 13);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 21px;
+    span {
+      color: $main-color;
+    }
+  }
+}

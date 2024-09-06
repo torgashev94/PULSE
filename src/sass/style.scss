@@ -4,12 +4,16 @@
 @import "header.scss";
 @import "mixins.scss";
 @import "media.scss";
+@import "advantage.scss";
+@import "title.scss";
+@import "consultation.scss";
+@import "forms.scss";
 
 * {
-  font-family: "MuseoModerno", sans-serif;
+    font-family: "MuseoModerno", sans-serif;
 }
 
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
+    max-width: 1140px;
+    margin: 0 auto;
 }
